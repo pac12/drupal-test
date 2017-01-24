@@ -6,6 +6,15 @@ solutions for this evaluation. Just be sure to do your best and ask questions
 if you are unsure or stuck on something. The resulting module will go through a
 code review where choices and implementation details can be discussed.
 
+The development portion of this evaluation is expected to take approx. 3-4 hours
+to complete . Times to completion will vary widely depending on experience. You
+will be able to get your development environment setup prior to beginning this
+evaluation.
+
+You are also encouraged to ask questions and interact with the other developers
+during this evaluation. At the end of the evaluation you will turn in your
+completed `filtered_videos` module for review.
+
 
 Dependencies
 ============
@@ -153,6 +162,11 @@ and adding some front end functionality to it.
    hide the button.
 
 ##### Optionally
+
+The below optional tasks are not required for this evaluation. If you complete
+the evaluation ahead of time and would like to try and implement these
+additional features, you are encouraged to do so.
+
 1. Provide next/previous links to navigate between the pages of VODs returned
    by the API.
 2. Display VOD titles and descriptions under linked thumbnails.
