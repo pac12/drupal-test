@@ -1,14 +1,18 @@
 # Pac-12 Drupal Technical Test
 
-Requirements:
+The goal of this evaluation is to gauge your current knowledge of Drupal and
+related technologies as a web developer. There are no _right_ or _correct_
+solutions for this evaluation. Just be sure to do your best and ask questions
+if you are unsure or stuck on something. The resulting module will go through a
+code review where choices and implementation details can be discussed.
 
-Working development environment with Web Server, PHP & MySQL installed.
 
 Dependencies
 ============
 
-In order to complete this evaluation, you will need to have the following
-setup on your local development environment.
+This evaluation requires a working development environment with Web Server, PHP
+& MySQL installed. In order to complete this evaluation, you will need to have
+the following setup on your local development environment.
 
 1. a web server running:
   * PHP
