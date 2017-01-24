@@ -7,8 +7,8 @@ if you are unsure or stuck on something. The resulting module will go through a
 code review where choices and implementation details can be discussed.
 
 The development portion of this evaluation is expected to take approx. 3-4 hours
-to complete . Times to completion will vary widely depending on experience. You
-will be able to get your development environment setup prior to beginning this
+to complete. Times to completion will vary widely depending on experience. You
+will be able to get your development environment set up prior to beginning this
 evaluation.
 
 You are also encouraged to ask questions and interact with the other developers
@@ -21,7 +21,7 @@ Dependencies
 
 This evaluation requires a working development environment with Web Server, PHP
 & MySQL installed. In order to complete this evaluation, you will need to have
-the following setup on your local development environment.
+the following setup on your local development environment:
 
 1. a web server running:
   * PHP
@@ -29,8 +29,8 @@ the following setup on your local development environment.
 2. Drush installed globally
 
 Below is the development environment we currently are running. You do not need
-to have the same environment for your local development machine, j  ust ensure
-you can setup a new PHP/MYSQL website and it meets the minimum requirements
+to have the same environment for your local development machine, just ensure
+you can set up a new PHP/MYSQL website and it meets the minimum requirements
 needed to run Drupal 7.
 
 1. nginx version: nginx/1.10.1
@@ -38,23 +38,23 @@ needed to run Drupal 7.
 3. Drush Version: 8.1.3
 4. PHP: 5.6.24
 
-Setup Basic Drupal Installation
+Set Up Basic Drupal Installation
 ===============================
 
 Use the instructions below to get a standard Drupal install running on your
-development machine
+development machine:
 
 ### Clone the Repository
 1. Clone this repository to ~/src/drupal-test.dev/
 
-### Setup:
+### Setup
 1. Create a new Virtual Host for your web server to run this evaluation.
   * Set the domain as drupal-test.dev or something similar.
   * Set the root directory to `~/src/drupal-test.dev/htdocs`
 2. Create a new mysql database.
   * Name the new database `drupal_test_dev`
 
-### Install Drupal:
+### Install Drupal
 1. Run the Drush make file `pac12.make` to install drupal and required modules.
   * The destination for the make file should be `~/src/drupal-test.dev/htdocs`
 2. Using Drush, run a standard install Drupal. Specify the Database URL, User
@@ -151,7 +151,7 @@ and adding some front end functionality to it.
 ##### Create a Drupal Behavior
 1. In the `filtered-videos.js` file, add a new Drupal behavior.
   * Wrap the behavior in a javascript closure that passes a reference to jQuery.
-2. When the button in the template is clicked, display a list of videos then
+2. When the button in the template is clicked, display a list of videos, then
    hide the button.
   * Use the VOD API to fetch a list of videos via AJAX.
     * http://docs.pac12v3.apiary.io/#reference/vod
