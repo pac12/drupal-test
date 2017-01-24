@@ -14,6 +14,10 @@ projects[drupal][download][url] = http://ftp.drupal.org/files/projects/drupal-7.
 ;* Contrib modules *;
 ;*******************;
 
+; Devel
+projects[devel][subdir] = contrib
+projects[devel][version] = 1.5
+
 ; Features
 projects[features][subdir] = contrib
 projects[features][version] = 2.10
