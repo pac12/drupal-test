@@ -38,14 +38,21 @@ needed to run Drupal 7.
 3. Drush Version: 8.1.3
 4. PHP: 5.6.24
 
+### Communication
+During the evaluation, we will be using Slack to communicate. You will be given
+an invite to the Slack channel before the evaluation. If you do not have Slack,
+it can be downloaded here: https://slack.com/downloads
+
+
 Setup Basic Drupal Installation
 ===============================
 
 Use the instructions below to get a standard Drupal install running on your
 development machine
 
-### Clone the Repository
-1. Clone this repository to ~/src/drupal-test.dev/
+### Fork & Clone the Repository
+1. Fork this repository to make your own copy.
+2. Clone the Fork to ~/src/drupal-test.dev/
 
 ### Setup:
 1. Create a new Virtual Host for your web server to run this evaluation.
@@ -160,6 +167,13 @@ and adding some front end functionality to it.
     * Include a title tag on the link with the VODs title.
 3. If `Auto Fetch` is set to true, automatically trigger the above logic and
    hide the button.
+
+### Commit your work
+1. Once you have completed the evaluation, commit the entire htdocs directory
+   into your repository.
+2. Push your commits up to your fork of the repository.
+3. You are encouraged to make incremental commits as you work through the
+   evaluation outlining and describing the changes being committed.
 
 ##### Optionally
 
